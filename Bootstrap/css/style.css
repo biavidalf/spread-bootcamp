@@ -1,0 +1,32 @@
+/* NAV BAR */
+.btn-outline-success{
+    background-color: white;
+    border: 1px solid rgb(135, 17, 204);
+    color: rgb(135, 17, 204);
+    padding: 5px 16px;
+}
+.btn-outline-success:hover{
+    background-color: rgb(135, 17, 204);
+}
+.navbar{
+    margin-top: 7px;
+}
+.form-control:focus{
+  color: #212529;
+  background-color: #fff;
+  border-color: rgb(177, 43, 255);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(125, 13, 253, 0.25);
+}
+/* First content */
+.btn-primary{
+    background-color: rgb(135, 17, 204);
+    border: 1px solid rgb(135, 17, 204);
+}
+.btn-primary:hover{
+    background-color: rgb(110, 15, 165);
+    border: 1px solid rgb(110, 15, 165);
+}
+.py-5{
+    margin-top: -30px;
+}
