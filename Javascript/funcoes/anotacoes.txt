@@ -1,0 +1,44 @@
+=> função anonima
+const soma = function (a, b){
+	return a+b;
+}
+=> IIFE = Immediately invoked function expression
+(
+ function(a, b){
+     return '';
+ }
+)(1, 2);
+
+=> callbacks
+função passada como argumento para outra
+
+---------------------------------------------
+
+=> Spread = ...numeros = [1, 2, 3] => 1, 2, 3
+=> Rest faz o contrário
+
+---------------------------------------------
+
+=> Object destructuring
+function userId({id}){
+  return id;
+}
+userId(user)
+
+function getFullName({fullName: (firstName: first, lastName: last}}) {
+  return $(first) $(last);
+}
+recebe um objeto como parâmetro, mas qnd poe {}, pega só o valor da chave
+
+---------------------------------------------
+
+=> for of
+function logLetras (palavra) {
+  for(letra of palavra) {
+    console.log(letra);
+  }
+}
+const palavra = "abacaxi";
+logLetras (palavra)
+// a
+// b...
